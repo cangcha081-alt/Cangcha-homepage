@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cangcha的个人主页</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="hero">
+        <div class="hero-content">
+            <div class="hero-badge">Team Feline</div>
+            <h1 class="hero-name">周卓扬</h1>
+            <p class="hero-tagline">项目经理 &nbsp;|&nbsp; 文本 &nbsp;|&nbsp; 音乐</p>
+            <div class="hero-divider"></div>
+        </div>
+    </header>
+
+    <section class="photo-section" aria-label="个人照片">
+        <div class="photo-wrapper">
+            <img src="123.jpg" alt="啊哦！出现了一些错误">
+        </div>
+    </section>
+
+    <main class="main-content">
+        <section class="section-block" id="about">
+            <h2 class="section-title">个人简介</h2>
+            <div class="section-body">
+                <p class="bio-text">
+                    我是<strong class="bio-highlight">周卓扬</strong>，一名天天混日子却神秘的充满社畜味的大学生，呃。
+                    <br>如你所见，我正在使用h5与css进行网页设计，这是我的作业之一。我需要在这里做一些简单的个人介绍：
+                    <br>我目前就读于北京理工大学计算机科学与技术专业，感兴趣的方向包括但不限于棒球及其统计学，推理小说及其文化，摇滚乐及其文化，还有所谓第九艺术。并已在B站和微信公众号上分享了一部分“看待世界的方式”。
+                    <br><span class="bio-highlight">知念实希人老师的《黑猫小夜曲》</span>这本书从首次阅读伊始，我便深深被其魅力所折服——我认为没有比这更适合改编为游戏的作品了。很高兴能够借助此次小组合作的契机实现对它的游戏化改编，了却我的一桩梦想。
+                </p>
+                <p class="bio-text">
+                    保持优秀是一件不容易的事情，那就保持幸福吧。
+                    也欢迎你能投稿帮助咕咕咕的蒼茶老师！
+                </p>
+            </div>
+        </section>
+
+        <section class="section-block" id="skills">
+            <h2 class="section-title">工作技能</h2>
+            <div class="section-body">
+                <div class="skills-container">
+                    <span class="skill-tag"><span class="skill-dot"></span>JavaScript / TypeScript</span>
+                    <span class="skill-tag"><span class="skill-dot"></span>Node.js / Express</span>
+                    <span class="skill-tag"><span class="skill-dot"></span>Python / Jupyter Notebook</span>
+                    <span class="skill-tag"><span class="skill-dot"></span>SQL </span>
+                    <span class="skill-tag"><span class="skill-dot"></span>C/C++ </span>
+                    <span class="skill-tag"><span class="skill-dot"></span>Docker / Kubernetes</span>
+                    <span class="skill-tag"><span class="skill-dot"></span>Git / GitBash</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-block" id="contact">
+            <h2 class="section-title">联系方式</h2>
+            <div class="section-body">
+                <div class="contact-container">
+                    <a href="17734688150@163.com" class="contact-item" data-platform="email" aria-label="发送邮件" title="点击发送邮件">
+                        <span class="contact-icon-wrapper">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="2" y="4" width="20" height="16" rx="2" ry="2"/>
+                                <path d="M22 7l-10 7L2 7"/>
+                            </svg>
+                        </span>
+                        <span class="contact-label">邮箱</span>
+                    </a>
+                    <a href="https://space.bilibili.com/424158008" class="contact-item" data-platform="bilibili" target="_blank" rel="noopener noreferrer" aria-label="访问哔哩哔哩主页" title="点击访问 Bilibili 主页">
+                        <span class="contact-icon-wrapper">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="3" y="7" width="18" height="13" rx="2.5" ry="2.5"/>
+                                <line x1="8" y1="7" x2="6" y2="3"/>
+                                <circle cx="6" cy="3" r="1.2" fill="currentColor" stroke="none"/>
+                                <line x1="16" y1="7" x2="18" y2="3"/>
+                                <circle cx="18" cy="3" r="1.2" fill="currentColor" stroke="none"/>
+                                <circle cx="9.5" cy="11.5" r="1.3" fill="currentColor" stroke="none"/>
+                                <circle cx="14.5" cy="11.5" r="1.3" fill="currentColor" stroke="none"/>
+                                <path d="M10.5 16.5 Q12 18 13.5 16.5" fill="none"/>
+                            </svg>
+                        </span>
+                        <span class="contact-label">哔哩哔哩</span>
+                    </a>
+                    <a href="https://github.com/cangcha081-alt" class="contact-item" data-platform="github" target="_blank" rel="noopener noreferrer" aria-label="访问GitHub主页" title="点击访问 GitHub 主页">
+                        <span class="contact-icon-wrapper">
+                            <svg viewBox="0 0 24 24" fill="currentColor" stroke="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                            </svg>
+                        </span>
+                        <span class="contact-label">GitHub</span>
+                    </a>
+                    <a href="javascript:void(0)" class="contact-item" data-platform="wechat" aria-label="关注微信公众号" title="点击关注微信公众号" id="wechatBtn">
+                        <span class="contact-icon-wrapper">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                                <ellipse cx="12" cy="11" rx="10" ry="8.5"/>
+                                <path d="M7.5 19 L5 22 L9 19" fill="none"/>
+                                <circle cx="8.5" cy="10" r="1.3" fill="currentColor" stroke="none"/>
+                                <circle cx="15.5" cy="10" r="1.3" fill="currentColor" stroke="none"/>
+                            </svg>
+                        </span>
+                        <span class="contact-label">微信公众号</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>Cangcha orz</p>
+    </footer>
+
+    <div class="modal-overlay" id="wechatModal">
+        <div class="modal-box">
+            <h3>苍茶的小酒吧儿</h3>
+            <p>请使用微信扫描下方二维码关注</p>
+            <div style="width:180px;height:180px;margin:16px auto;border-radius:8px;overflow:hidden;">
+            <img src="qrcode.jpg" alt="微信公众号二维码" style="width:100%;height:100%;object-fit:contain;">
+            </div>
+            <button class="modal-close" id="closeModal">关 闭</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
